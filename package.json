@@ -1,0 +1,22 @@
+{
+  "name": "js-testing-practice",
+  "version": "1.0.0",
+  "description": "JS Testing Sandbox",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/**/*_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjadair/JS-Testing-Practice.git"
+  },
+  "author": "Michael Adair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjadair/JS-Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/mjadair/JS-Testing-Practice#readme",
+  "dependencies": {
+    "mocha": "^7.1.0"
+  }
+}
