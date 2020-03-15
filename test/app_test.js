@@ -21,6 +21,27 @@ describe('Rooster', () => {
       assert.strictEqual(timeExpected, actualTime)
     })
 
+    it('throws an error if passed a number less than 0', () => {
+      assert.throws(
+        () => {
+          Rooster.timeAtDawn(-1)
+        },
+        RangeError
+      )
+
+    })
+
+
+    it('throws an error if passed a number greater than 23', () => {
+      assert.throws(
+        () => {
+          Rooster.timeAtDawn(412)
+        },
+        RangeError
+      )
+
+    })
+
   })
 
 })
