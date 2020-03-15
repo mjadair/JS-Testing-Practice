@@ -13,7 +13,7 @@ Rooster.timeAtDawn = (hour) => {
     throw new RangeError
   } else {
     return hour.toString()
-  };
+  }
 }
 
 module.exports = Rooster
