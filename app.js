@@ -2,7 +2,7 @@ const Calculate = {
 
   factorial: function(input) {
     for (let i = input - 1; i >= 1; i--) {
-      input = input * i 
+      input *= i 
     }
     
     return input
