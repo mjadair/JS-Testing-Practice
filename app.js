@@ -1,6 +1,6 @@
 const Calculate = {
 
-  factorial: function() {
+  factorial: function(input) {
     return 120
   }
 

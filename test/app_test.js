@@ -12,7 +12,17 @@ describe('Calculate', () => {
 
     it('tests for the correct calculation', () => {
 
-      assert.equal(Calculate.factorial(5), 120)
+      //setup 
+      let inputNumber = 5
+      let controlResult = 120
+
+      //exercise
+      const checkResult = Calculate.factorial(inputNumber)
+
+
+      //verify
+
+      assert.equal(checkResult, controlResult)
 
 
     })
