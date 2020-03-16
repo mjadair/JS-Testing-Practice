@@ -26,6 +26,28 @@ describe('Calculate', () => {
 
 
     })
+
+    it('tests for the correct calculation', () => {
+
+      //setup 
+      let inputNumber2 = 3
+      let controlResult2 = 6
+
+      //exercise
+      const checkResult2 = Calculate.factorial(inputNumber2)
+
+
+      //verify
+
+      assert.equal(checkResult2, controlResult2)
+
+
+    })
+
+
+
+
+
   })
 })
 
