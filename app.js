@@ -1,7 +1,11 @@
 const Calculate = {
 
   factorial: function(input) {
-    return 120
+    for (let i = input - 1; i >= 1; i--) {
+      input = input * i 
+    }
+    
+    return input
   }
 
 }
