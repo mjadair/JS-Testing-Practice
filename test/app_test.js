@@ -44,6 +44,23 @@ describe('Calculate', () => {
 
     })
 
+    it('returns one if zero is the input', () => {
+
+      //setup 
+      let inputNumber3 = 0
+      let controlResult3 = 1
+
+      //exercise
+      const checkResult3 = Calculate.factorial(inputNumber3)
+
+
+      //verify
+
+      assert.equal(checkResult3, controlResult3)
+
+
+    })
+
 
 
 
