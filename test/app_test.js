@@ -10,9 +10,16 @@ describe('Calculate', () => {
   describe('.factorial', () => {
 
 
-    it(())
+    it('tests for the correct calculation', () => {
+
+      assert.equal(Calculate.factorial(5), 120)
+
+
+    })
   })
 })
+
+
 
 
 
