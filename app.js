@@ -1,3 +1,5 @@
+//TDD Testing=======================================================
+
 const Calculate = {
 
   factorial: function(input) {
@@ -15,30 +17,6 @@ const Calculate = {
 
 
 module.exports = Calculate
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
