@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/mjadair/JS-Testing-Practice#readme",
   "dependencies": {
-    "mocha": "^7.1.0"
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "morgan": "^1.10.0",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^5.22.3"
   }
 }

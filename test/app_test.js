@@ -2,13 +2,9 @@ const assert = require('assert')
 const Rooster = require('../rooster')
 const Calculate = require('../calculate')
 
-
 //TDD Testing=====================================================================
-
-
 describe('Calculate', () => {
   describe('.factorial', () => {
-
 
     it('tests for the correct calculation', () => {
 
@@ -19,16 +15,11 @@ describe('Calculate', () => {
       //exercise
       const checkResult = Calculate.factorial(inputNumber)
 
-
       //verify
-
       assert.equal(checkResult, controlResult)
-
-
     })
 
     it('tests for the correct calculation', () => {
-
       //setup 
       let inputNumber2 = 3
       let controlResult2 = 6
@@ -36,12 +27,8 @@ describe('Calculate', () => {
       //exercise
       const checkResult2 = Calculate.factorial(inputNumber2)
 
-
       //verify
-
       assert.equal(checkResult2, controlResult2)
-
-
     })
 
     it('returns one if zero is the input', () => {
@@ -53,24 +40,14 @@ describe('Calculate', () => {
       //exercise
       const checkResult3 = Calculate.factorial(inputNumber3)
 
-
       //verify
-
       assert.equal(checkResult3, controlResult3)
-
-
     })
-
-
-
-
-
   })
 })
 
 
 //BASIC TESTING================================================================================
-
 describe('Rooster', () => {
   describe('announceDawn', () => {
     it('returns a rooster call', () => {
@@ -87,7 +64,6 @@ describe('Rooster', () => {
       //setup 
       const timeExpected = '23'
       const actualTime = Rooster.timeAtDawn(23)
-
       assert.strictEqual(timeExpected, actualTime)
     })
 
@@ -98,9 +74,7 @@ describe('Rooster', () => {
         },
         RangeError
       )
-
     })
-
 
     it('throws an error if passed a number greater than 23', () => {
       assert.throws(
@@ -109,9 +83,6 @@ describe('Rooster', () => {
         },
         RangeError
       )
-
     })
-
   })
-
 })
